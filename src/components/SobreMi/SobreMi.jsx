@@ -1,32 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./About.module.css";
+import styles from "./SobreMi.module.css";
 
-function About() {
+function SobreMi() {
   return (
     <div className={styles.aboutbody}>
       <div className={styles.namediv}>
-        <h1 className={styles.name}>Hi! My name is Priscila Moro. </h1>
+        <h1 className={styles.name}>Hola! Soy Priscila Moro. </h1>
       </div>
       <div className={styles.jobdiv}>
-        <h1 className={styles.job}>I'm a full stack developer</h1>
+        <h1 className={styles.job}>Full Stack Developer</h1>
       </div>
-      <h1 className={styles.description}>I'm passionate about technology.</h1>
+      <h1 className={styles.description}>Siento pasión por la tecnología.</h1>
       <h1 className={styles.description}>
-        I really enjoy creating and developing software, especially if I can do
-        it with a team.
+        Disfruto creando y desarrollando software, especialmente si es en
+        equipo.
       </h1>
       <h1 className={styles.description}>
-        I'm pretty sure that IT world is my place.
+        Estoy muy segura que el mundo IT es mi lugar.
       </h1>
       <div className={styles.row}>
         <a
-          href="https://drive.google.com/file/d/1zl8Yo580G_lVcRzyq9wz0w4iv9AE8qXs/view?usp=sharing"
+          href="https://drive.google.com/file/d/1BD3_10IAj_Ix1Rvj14bO9QmHEjEWmdgV/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className={styles.cv}
         >
-          RESUME
+          CV
         </a>
         <a
           href="https://github.com/PriMoro/"
@@ -47,11 +47,11 @@ function About() {
       </div>
 
       <div>
-        <Link to="/home">
-          <button className={styles.button}>Back</button>
+        <Link to="/inicio">
+          <button className={styles.button}>Atrás</button>
         </Link>
       </div>
     </div>
   );
 }
-export default About;
+export default SobreMi;
